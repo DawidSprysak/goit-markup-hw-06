@@ -691,6 +691,7 @@ ol {
 
 .modal-paragraph {
   color: var(--dark-color);
+  text-align: center;
   font-weight: 500;
   margin-bottom: 16px;
 }
@@ -830,11 +831,13 @@ ol {
   color: var(--white-background-color);
 }
 
-.footer-sbscr-paragraph {
+.footer .footer-sbscr-paragraph {
   display: block;
   color: var(--white-background-color);
   font-weight: 500;
   margin-bottom: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
 }
 
 .footer-form {
