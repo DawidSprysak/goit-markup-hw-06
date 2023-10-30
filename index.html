@@ -421,6 +421,28 @@
             </li>
           </ul>
         </div>
+
+        <div class="form-div">
+          <p class="paragraph footer-sbscr-paragraph">Subscribe</p>
+          <form class="footer-form">
+            <label class="footer-label" for="subscribe">
+              <input
+                class="footer-input"
+                id="subscribe"
+                type="email"
+                name="subscribe"
+                placeholder="E-mail"
+                required
+              />
+            </label>
+            <button type="submit" class="button sbscr-button">
+              Subscribe
+              <svg class="sbscr-icon" width="24" height="24">
+                <use href="./images/icons.svg#icon-sbscr" />
+              </svg>
+            </button>
+          </form>
+        </div>
       </div>
     </footer>
 
@@ -501,11 +523,13 @@
               required
             />
             <label class="priv-policy-label" for="user-privacy">
-              <svg class="modal-form-icon" width="10" height="8">
-                <use href="./images/icons.svg#icon-checkbox1" />
-              </svg>
+              <span class="priv-policy-span">
+                <svg class="priv-policy-icon" width="10" height="8">
+                  <use href="./images/icons.svg#icon-checkbox" />
+                </svg>
+              </span>
               I accept the terms and conditions of the
-              <a class="policy-link" href="">Privacy Policy</a>
+              <a class="priv-policy-link" href="">Privacy Policy</a>
             </label>
           </div>
           <button type="submit" class="button modal-btn">Send</button>
